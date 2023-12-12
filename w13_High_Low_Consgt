@@ -1,0 +1,40 @@
+//using const
+
+int main() {
+
+/* top-level const: describe the left, and low-level const describe
+//note1:
+    const int ci=42;
+    ci = 43; // Can not doing this
+
+//note2:
+    int i =0;
+    int *const p1=&i; //top-level const
+    //p1++;
+    *p1=2;
+
+//note3:
+const int* p2=&i; // low-level const
+p2++;
+//*p2=2; //Error
+
+//note4:
+const int* const p3=&i;
+p3++;
+*p3=2;
+*/
+
+/*copy: ignore top level, never ignore low level
+int i =0;
+int *const p1=&i //top-level
+const int ci=42; // top
+const int *p2 =&ci; //low
+const int * const p3 = p2; //both
+const int &rc = ci; //low
+
+i = ci; //yes
+p2 = p3; //yes
+int *p =p3; 
+*/
+
+}
