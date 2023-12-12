@@ -1,0 +1,10 @@
+My answer:
+
+The purpose of the funcExp(T list[], int size) function is to do a two-fold examination on an array that 
+has been provided. It ignores the first element and focuses on the first half of the array first. It carefully 
+identifies the area with the most value by carefully sorting through this material. After locating this highest 
+value, the function turns its focus to the second half of the array. This time, though, it ignores the last 
+component and instead focuses on identifying the number that is the least in this area. 
+
+-> After determining the highest value from the first half and the lowest value from the second, funcExp 
+computes their total and displays it as the result of its extensive investigation.

@@ -1,0 +1,28 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>110</x><y>170</y><w>210</w><h>90</h></coordinates><panel_attributes>House
+--
+- _material
+--
++ House(string material)
++ getMaterial(): string
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>470</x><y>350</y><w>210</w><h>120</h></coordinates><panel_attributes>Pig
+--
+- name
+- house (Object)
+--
++ Pig(string n, House* h)
++ getHouseMaterial(): string
++ pigSaid(string words): void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>90</x><y>380</y><w>210</w><h>90</h></coordinates><panel_attributes>Wolf
+--
+- name
+--
++ Wolf(string n) 
++ wolfSaid(string words): void
++ destroy (Pig &amp;pig): bool
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>210</y><w>190</w><h>200</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1
+is owned by &gt;</panel_attributes><additional_attributes>10;10;160;180</additional_attributes></element><element><id>Relation</id><coordinates><x>290</x><y>400</y><w>200</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1..*
+&lt; Faced with</panel_attributes><additional_attributes>10;20;180;20</additional_attributes></element></diagram>
