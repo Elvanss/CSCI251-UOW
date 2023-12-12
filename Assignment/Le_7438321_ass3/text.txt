@@ -1,0 +1,77 @@
+./KAP 189 273 3
+Condition 2: Attempt add an object which triggers a reset. The number of used resets: 1/3
+=======================
+Knapsack size: 189
+Added object size: 144
+ACAFAGADEE
+=======================
+A: 1, 4
+C: 4, 1
+D: 8, 1
+E: 16, 2
+F: 32, 1
+G: 64, 1
+=======================
+Consition 2: Attempt add an object which triggers a reset. The number of used resets: 2/3
+=======================
+Knapsack size: 189
+Added object size: 133
+AGFFC
+=======================
+A: 1, 1
+C: 4, 1
+F: 32, 2
+G: 64, 1
+=======================
+Condition 1 is triggered because the size of the next object is too large: 32
+=======================
+Knapsack size: 189
+Added object size: 160
+GDBAGECA
+=======================
+A: 1, 2
+B: 2, 1
+C: 4, 1
+D: 8, 1
+E: 16, 1
+G: 64, 2
+=======================
+
+./KAP 250 15 3
+Condition 2: Attempt add an object which triggers a reset. The number of used resets: 1/3
+=======================
+Knapsack size: 250
+Added object size: 220
+GGBEAACGC
+=======================
+A: 1, 2
+B: 2, 1
+C: 4, 2
+E: 16, 1
+G: 64, 3
+=======================
+Consition 2: Attempt add an object which triggers a reset. The number of used resets: 2/3
+=======================
+Knapsack size: 250
+Added object size: 190
+EACGCFABBG
+=======================
+A: 1, 2
+B: 2, 2
+C: 4, 2
+E: 16, 1
+F: 32, 1
+G: 64, 2
+=======================
+Condition 3: Attempt to add an S object which triggers early termination
+=======================
+Knapsack size: 250
+Added object size: 133
+ACEFEG
+=======================
+A: 1, 1
+C: 4, 1
+E: 16, 2
+F: 32, 1
+G: 64, 1
+=======================
